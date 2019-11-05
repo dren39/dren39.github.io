@@ -1,3 +1,32 @@
-#header {
-    color: blue;
+body {
+    font-family: sans-serif;“
+}
+
+#main-content {
+    
+}
+
+.container-class {
+    margin-left: 21%;
+}
+
+#profile-container {
+    text-align: center;
+}
+
+#profile-pic {
+    margin-top: 6vh;
+}
+
+#about-container {
+    width: 59%;
+}
+
+#about-para {
+    font-size: 1.1em;
+}
+
+.icon-container{
+    display: flex;
+    text-align: center;
 }
