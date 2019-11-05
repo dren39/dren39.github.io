@@ -30,3 +30,7 @@ body {
     display: flex;
     text-align: center;
 }
+
+#name-header {
+    color: red;
+}
