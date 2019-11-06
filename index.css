@@ -1,5 +1,10 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
+  /* background-color: black; */
+  background-image: linear-gradient(rgba(0, 1, 0.5, 0.6), rgba(0, 0, 0, 0.5)), url("images/background-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 /* #main-content {
@@ -7,30 +12,36 @@ body {
 } */
 
 .container-class {
-    margin-left: 21%;
+  margin-left: 21%;
 }
 
 #profile-container {
-    text-align: center;
+  text-align: center;
 }
 
 #profile-pic {
-    margin-top: 6vh;
+  margin-top: 6vh;
 }
 
 #about-container {
-    width: 59%;
+  width: 59%;
 }
 
 #about-para {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .icon-container{
-    display: flex;
-    text-align: center;
+  display: flex;
+  /* margin: 0vw -2vw; */
+  text-align: center;
 }
 
-#name-header {
-    color: red;
+/* #name-header {
+  color: red;
+} */
+
+#LI-icon {
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
