@@ -53,3 +53,7 @@ body {
 .font {
   color: white;
 }
+
+.project-class {
+  max-width: 85%;
+}
