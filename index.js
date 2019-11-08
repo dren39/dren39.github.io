@@ -31,17 +31,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   //functions
   function generateProject(projectName, frontRepo, backRepo, about, desc, video) {
-    // body.innerHTML = `
-    // <div>
-    //     <a href=${frontRepo}>Front-End Repository</a>
-    //     <a href=${backRepo}>Back-End Repository</a>
-    //       <p>About the project</p>
-    //       <p>${about}</p>
-    //       <p>How it works</p>
-    //       <p>${desc}</p>
-    //       <button id="close-btn">Close</button>
-    //     </div>
-    // `
     if(frontRepo && backRepo) {
       projectsContainer.innerHTML = `
         <div>
@@ -52,12 +41,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
           <div>
             <a href=${backRepo} class="repo">Back-End Repository</a>
           </div>
-          <h5 class="font">About the app</h5>
+          <h5 class="font" id="about-app">About the app</h5>
           <p class="font project-class">${about}</p>
           <h5 class="font">How the app works</h5>
           <p class="font project-class">${desc}</p>
           <iframe src="${video}" width="700" height="450"></iframe>
-          <button type="button" class="btn btn-primary" id="close-btn">Close</button>
+          <div><button type="button" class="btn btn-primary" id="close-btn">Close</button></div>
+          
         </div>
       `
     }
@@ -122,7 +112,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   projectsContainer.addEventListener('click', event => {
     event.preventDefault();
     let projectId = event.target.dataset.id;
-    // console.log(event.target);
     if(projectId === "1") {
       generateProject(project1Name, project1FrontRepo, project1BackRepo, project1About, project1Desc, project1Video);
     }

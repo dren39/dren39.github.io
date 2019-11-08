@@ -6,12 +6,9 @@ body {
   color: white;
 }
 
-/* #main-content {
-    
-} */
-
 .container-class {
   margin-left: 21%;
+  margin-top: 3%;
 }
 
 #profile-container {
@@ -36,10 +33,6 @@ body {
   text-align: center;
 }
 
-/* #name-header {
-  color: red;
-} */
-
 #LI-icon {
   margin-left: 2vw;
   margin-right: 2vw;
@@ -56,4 +49,8 @@ body {
 
 .project-class {
   max-width: 85%;
+}
+
+#about-app {
+  margin-top: 1%;
 }
