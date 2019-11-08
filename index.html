@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-		<link rel="stylesheet" href="index.css">
-	</head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  </head>
 	<body>
-		<div id="profile-container">
+    <div id="profile-container">
 			<img id="profile-pic" src="images/profile-pic.png" width="165" height="165">
-			<h2 id="name-header">David Ren</h2>
-			<h3>Full Stack Software Engineer</h3>
+			<h2 id="name-header" class="font">David Ren</h2>
+			<h3 class="font">Full Stack Software Engineer</h3>
 		</div>
 		<!-- <div id="main-content"> -->
 			<div id="about-container" class="container-class">
-					<h2>About</h2>
-					<p id="about-para">
+					<h2 class="font">About</h2>
+					<p id="about-para" class="text-white">
 						I'm a full stack software engineer with a passion for building meaningful applications aimed to 
 						enrich and better the lives of my users. I specialize in front-end development using technologies
 						such as JavaScript, CSS, and HTML with frameworks and tools including ReactJS and Bootstrap, 
@@ -21,91 +26,127 @@
 						dynamic web applications.
 					</p>
 			</div>
-			<div id="skill-container" class="container-class">
-				<h2>Programming Languages</h2>
-				<div id="langauge-container" class="icon-container">
-					<div>
-						<img src="https://img.icons8.com/color/96/000000/javascript.png">
-						<p>Javascript</p>
-					</div>
-					<div>
-						<img src="https://img.icons8.com/color/96/000000/ruby-programming-language.png">
-						<p>Ruby</p>
-					</div>
-					<div>
-						<img src="https://img.icons8.com/nolan/96/000000/html-filetype.png">
-						<p>HTML</p>
-					</div>
-					<div>
-						<img src="https://img.icons8.com/nolan/96/000000/css-filetype.png">
-						<p>CSS</p>
-					</div>
-				</div>
-				<h2>Frameworks and Tools</h2>
-				<div id="framework-container" class="icon-container">
-					<div>
-						<img src="images/rails-icon.png" width="85" height="85">
-						<p>Ruby on Rails</p>
-					</div>
-					<div>
-						<img src=images/react-icon.png width ="85" height ="85">
-						<!-- <img src="https://img.icons8.com/plasticine/100/000000/react.png" width="85" height="85"> -->
-						<p>React</p>
-					</div>
-					<div>
-						<img src="images/nodejs-icon.png" width="85" height="85">
-						<p>Node.js</p>
-					</div>
-					<div>
-						<img src="https://img.icons8.com/color/96/000000/bootstrap.png" width="83" height="85">
-						<p>Boostrap</p>
-					</div>
-				</div>
-				<h2>Database Management</h2>
-				<div id="database-container" class="icon-container">
-					<div>
-						<img src="https://img.icons8.com/color/96/000000/postgreesql.png" width="85" height="85">
-						<p>PostgreSQL</p>
-					</div>
-				</div>
-      </div>
-      <div id="projects-container" class="container-class">
-        <h2>Projects</h2>
-        <div id="project-1-container">
-          <p>PottySpot</p> 
-          <p>An app utilizing geocoding to generate maps 
+			<div id="projects-container" class="container-class">
+          <h2 class="font">Projects</h2>
+          <div class="row">
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">PottySpot</h5>
+                    <p class="card-text">An app utilizing geocoding to generate maps 
+                        and markers of nearby locations with available restrooms</p>
+                    <button class="btn btn-primary" data-id="1">See Project</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Guild Quest</h5>
+                    <p class="card-text">Web app that allows users to post help requests for other users to 
+                        complete in exchange for rewards/compensations</p>
+                    <button class="btn btn-primary" data-id="2">See Project</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">KetoMe</h5>
+                    <p class="card-text">A nutrition app for users on the Keto diet to track 
+                        their daily nutrition intake</p>
+                    <button class="btn btn-primary" data-id="3">See Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div id="skill-container" class="container-class">
+          <h2 class="font">Programming Languages</h2>
+          <div id="langauge-container" class="icon-container">
+            <div>
+              <img src="https://img.icons8.com/color/96/000000/javascript.png">
+              <p class="font">Javascript</p>
+            </div>
+            <div>
+              <img src="https://img.icons8.com/color/96/000000/ruby-programming-language.png">
+              <p class="font">Ruby</p>
+            </div>
+            <div>
+              <!-- <img src="https://img.icons8.com/nolan/96/000000/html-filetype.png"> -->
+              <img src="https://img.icons8.com/color/96/000000/html-5.png">
+              <p class="font">HTML</p>
+            </div>
+            <div>
+              <!-- <img src="https://img.icons8.com/nolan/96/000000/css-filetype.png"> -->
+              <img src="https://img.icons8.com/color/96/000000/css3.png">
+              <p class="font">CSS</p>
+            </div>
+          </div>
+          <h2 class="font">Frameworks and Tools</h2>
+          <div id="framework-container" class="icon-container">
+            <div>
+              <img src="images/rails-icon.png" width="85" height="85">
+              <p class="font">Ruby on Rails</p>
+            </div>
+            <div>
+              <img src=images/react-icon.png width ="85" height ="85">
+              <!-- <img src="https://img.icons8.com/plasticine/100/000000/react.png" width="85" height="85"> -->
+              <p class="font">React</p>
+            </div>
+            <div>
+              <img src="images/nodejs-icon.png" width="85" height="85">
+              <p class="font">Node.js</p>
+            </div>
+            <div>
+              <img src="https://img.icons8.com/color/96/000000/bootstrap.png" width="83" height="85">
+              <p class="font">Boostrap</p>
+            </div>
+          </div>
+          <h2 class="font">Database Management</h2>
+          <div id="database-container" class="icon-container">
+            <div>
+              <img src="https://img.icons8.com/color/96/000000/postgreesql.png" width="85" height="85">
+              <p class="font">PostgreSQL</p>
+            </div>
+          </div>
+        </div>
+        
+        <div id="links-container" class="container-class">
+          <h2 class="font">Find me online</h2>
+          <div id="link-icon-container" class="icon-container">
+            <a href="https://github.com/dren39">
+              <img src="images/github-icon-white.png" width="60" height="60">
+            </a>
+            <a href="https://www.linkedin.com/in/davidren92/">
+              <img id="LI-icon" src="images/linkedin-icon.png" width="70" height="62">
+            </a>
+            <a href="https://medium.com/@dren4510">
+              <img src="images/medium-icon.png" width="68" height="62">
+            </a>
+          </div>
+        </div>
+        <div id="contact-container" class="container-class">
+          <h3 class="font">Contact Me</h3>
+          <p class="font">dren4510@gmail.com</p>
+          <p class="font">347-399-8735</p>
+        </div>
+        <!-- </div> -->
+      </body>
+      </html>
+
+        <!-- <div id="project-1-container">
+          <p class="text-white">PottySpot</p> 
+          <p class="text-white">An app utilizing geocoding to generate maps 
              and markers of nearby locations with available restrooms</p>
         </div>
         <div id="project-2-container">
-          <p>Guild Quest</p>
-          <p>Web app that allows users to post help requests for other users to 
-             complete in exchange for rewards/compensation</p>
+          <p class="text-white">Guild Quest</p>
+          <p class="text-white">Web app that allows users to post help requests for other users to 
+            complete in exchange for rewards/compensation</p>
         </div>
         <div id="project3-container">
-          <p>KetoMe</p>
-          <p>A nutrition app for users on the Keto diet to track 
+          <p class="text-white">KetoMe</p>
+          <p class="text-white">A nutrition app for users on the Keto diet to track 
              their daily nutrition intake</p>
-        </div>
-      </div>
-      <div id="links-container" class="container-class">
-        <h2>Find me online</h2>
-        <div id="link-icon-container" class="icon-container">
-          <a href="https://github.com/dren39">
-            <img src="images/github-icon-white.png" width="60" height="60">
-          </a>
-          <a href="https://www.linkedin.com/in/davidren92/">
-            <img id="LI-icon" src="images/linkedin-icon.png" width="70" height="62">
-          </a>
-          <a href="https://medium.com/@dren4510">
-            <img src="images/medium-icon.png" width="68" height="62">
-          </a>
-        </div>
-      </div>
-      <div id="contact-container" class="container-class">
-        <h3>Contact Me</h3>
-        <p>dren4510@gmail.com</p>
-        <p>347-399-8735</p>
-      </div>
-		<!-- </div> -->
-	</body>
-</html>
+        </div> -->
