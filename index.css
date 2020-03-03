@@ -1,9 +1,16 @@
 body {
   font-family: sans-serif;
-  background-image: linear-gradient(rgba(0, 1, 0.5, 0.6), rgba(0, 0, 0, 0.5)), url("images/background-image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
+  /* background-image: url("images/dark-background-image.png"); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  /* background-color: rgb(41, 48, 57); */
+  /* linear-gradient(rgba(0, 1, 0.5, 0.6), rgba(0, 0, 0, 0.5)),  */
+  overflow-x: hidden;
+}
+
+#name-header {
+  text-decoration: underline;
+  margin-top: 10px;
 }
 
 .container-class {
@@ -23,14 +30,15 @@ body {
   width: 59%;
 }
 
-#about-para {
+/* #about-para {
   font-size: 1.1em;
-}
+} */
 
 .icon-container{
   display: flex;
   /* margin: 0vw -2vw; */
   text-align: center;
+  /* justify-content: center; */
 }
 
 #LI-icon {
@@ -38,14 +46,17 @@ body {
   margin-right: 2vw;
 }
 
-.card-text {
-  min-height: 15vh;
-  max-height: 15vh;
+.header-font {
+  color: crimson;
 }
 
-.font {
-  color: white;
+.desc-font {
+  font-size: 1.1em;
 }
+
+/* .footer-font {
+  color: white;
+} */
 
 .project-class {
   max-width: 85%;
@@ -54,3 +65,34 @@ body {
 #about-app {
   margin-top: 1%;
 }
+
+/* .btn {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 5px;
+  background-color: deepskyblue;
+  border: none;
+  color: white;
+  text-align: center;
+} */
+
+#pottyspot-project-container {
+  display: none;
+}
+
+#guild-project-container {
+  display: none;
+}
+
+#keto-project-container {
+  display: none;
+}
+
+.card {
+  min-height: 254px;
+}
+
+/* .info-container {
+  text-align: center;
+  margin-top: 3%;
+} */
