@@ -1,33 +1,33 @@
 body {
-  font-family: sans-serif;
-  /* background-image: url("images/dark-background-image.png"); */
-  /* background-size: cover;
-  background-repeat: no-repeat; */
-  /* background-color: rgb(41, 48, 57); */
-  /* linear-gradient(rgba(0, 1, 0.5, 0.6), rgba(0, 0, 0, 0.5)),  */
-  overflow-x: hidden;
+    font-family: sans-serif;
+    /* background-image: url("images/dark-background-image.png"); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-color: rgb(41, 48, 57); */
+    /* linear-gradient(rgba(0, 1, 0.5, 0.6), rgba(0, 0, 0, 0.5)),  */
+    overflow-x: hidden;
 }
 
 #name-header {
-  text-decoration: underline;
-  margin-top: 10px;
+    text-decoration: underline;
+    margin-top: 10px;
 }
 
 .container-class {
-  margin-left: 21%;
-  margin-top: 3%;
+    margin-left: 21%;
+    margin-top: 3%;
 }
 
 #profile-container {
-  text-align: center;
+    text-align: center;
 }
 
 #profile-pic {
-  margin-top: 6vh;
+    margin-top: 6vh;
 }
 
 #about-container {
-  width: 59%;
+    width: 59%;
 }
 
 /* #about-para {
@@ -35,23 +35,23 @@ body {
 } */
 
 .icon-container{
-  display: flex;
-  /* margin: 0vw -2vw; */
-  text-align: center;
-  /* justify-content: center; */
+    display: flex;
+    /* margin: 0vw -2vw; */
+    text-align: center;
+    /* justify-content: center; */
 }
 
 #LI-icon {
-  margin-left: 2vw;
-  margin-right: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .header-font {
-  color: crimson;
+    color: crimson;
 }
 
 .desc-font {
-  font-size: 1.1em;
+    font-size: 1.1em;
 }
 
 /* .footer-font {
@@ -59,11 +59,11 @@ body {
 } */
 
 .project-class {
-  max-width: 85%;
+    max-width: 85%;
 }
 
 #about-app {
-  margin-top: 1%;
+    margin-top: 1%;
 }
 
 /* .btn {
@@ -77,19 +77,19 @@ body {
 } */
 
 #pottyspot-project-container {
-  display: none;
+    display: none;
 }
 
 #guild-project-container {
-  display: none;
+    display: none;
 }
 
 #keto-project-container {
-  display: none;
+    display: none;
 }
 
 .card {
-  min-height: 254px;
+    min-height: 254px;
 }
 
 /* .info-container {

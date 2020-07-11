@@ -1,239 +1,254 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <script 
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous">
+        </script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous">
+        </script>
+        <link 
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        >
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+            rossorigin="anonymous">
+        </script>
+    </head>
   <body>
     <div id="profile-container">
-			<img id="profile-pic" src="images/profile-pic.png" width="190" height="190 ">
-			<h1 id="name-header" class="footer-font">David Ren</h1>
-			<h2 class="footer-font">Full Stack Software Engineer</h2>
+        <img id="profile-pic" src="images/profile-pic.png" width="190" height="190 ">
+        <h1 id="name-header" class="footer-font">David Ren</h1>
+        <h2 class="footer-font">Full Stack Software Engineer</h2>
     </div>
     
     <div id="about-container" class="container-class">
-      <h2 class="header-font">About</h2>
-      <p class="desc-font">
-        I'm a full stack software engineer with a passion for building meaningful applications aimed to 
-        enrich and better the lives of my users. I specialize in front-end development using technologies
-        such as JavaScript, CSS, and HTML with frameworks and tools including ReactJS and Bootstrap, 
-        while also having back-end development experience using Node.js, Ruby, and Rails. I bring strong
-        skills in team-building and communication that help web development companies build robust and 
-        dynamic web applications.
-      </p>
+        <h2 class="header-font">About</h2>
+        <p class="desc-font">
+            I'm a full stack software engineer with a passion for building meaningful applications aimed to 
+            enrich and better the lives of my users. I specialize in front-end development using technologies
+            such as JavaScript, CSS, and HTML with frameworks and tools including ReactJS and Bootstrap, 
+            while also having back-end development experience using Node.js, Ruby, and Rails. I bring strong
+            skills in team-building and communication that help web development companies build robust and 
+            dynamic web applications.
+        </p>
     </div>
 
     <div id="project-cards-container" class="container-class" data-name="project-cards-container">
-      <h2 class="header-font">Projects</h2>
-          <!-- <div>
-              <h3 class="footer-font">PottySpot</h3>
-              <p class="desc-font">An app utilizing geocoding to generate maps 
-                  and markers of nearby locations with available restrooms</p>
-              <button class="btn" data-id="1">See Project</button>
-          </div>
-          <div>
-              <h3 class="footer-font">Guild Quest</h3>
-              <p class="desc-font">Web app that allows users to post help requests for other users to 
-                  complete in exchange for rewards/compensations</p>
-              <button class="btn" data-id="2">See Project</button>
-          </div>
-          <div>
-              <h3 class="footer-font">KetoMe</h3>
-              <p class="desc-font">A nutrition app for users on the Keto diet to track 
-                  their daily nutrition intake</p>
-              <button class="btn" data-id="3">See Project</button>
-          </div> -->
-      <div class="row">
-          <div class="col-sm-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">PottySpot</h5>
-                <p class="card-text">An app utilizing geocoding to generate maps 
-                    and markers of nearby locations with available restrooms</p>
-              </div>
-              <button class="btn btn-primary" data-name="pottyspot-open-btn">See Details</button>
+        <h2 class="header-font">Projects</h2>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">PottySpot</h5>
+                        <p class="card-text">An app utilizing geocoding to generate maps 
+                            and markers of nearby locations with available restrooms
+                        </p>
+                    </div>
+                    <button class="btn btn-primary" data-name="pottyspot-open-btn">See Details</button>
+                </div>
             </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Guild Quest</h5>
-                <p class="card-text">Web app that allows users to post help requests for other users to 
-                    complete in exchange for rewards/compensations</p>
-              </div>
-              <button class="btn btn-primary" data-name="guild-open-btn">See Details</button>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Guild Quest</h5>
+                        <p class="card-text">Web app that allows users to post help requests for other users to 
+                            complete in exchange for rewards/compensations
+                        </p>
+                    </div>
+                    <button class="btn btn-primary" data-name="guild-open-btn">See Details</button>
+                </div>
             </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">KetoMe</h5>
-                <p class="card-text">A nutrition app for users on the Keto diet to track 
-                    their daily nutrition intake</p>
-              </div>
-              <button class="btn btn-primary" data-name="keto-open-btn">See Details</button>
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">KetoMe</h5>
+                        <p class="card-text">A nutrition app for users on the Keto diet to track 
+                            their daily nutrition intake
+                        </p>
+                    </div>
+                    <button class="btn btn-primary" data-name="keto-open-btn">See Details</button>
+                </div>
             </div>
-          </div>
         </div>
     </div>
 
-    <!-- <div id="project-details-container" class="container-class" data-name="project-details-container"> -->
-      <div id="pottyspot-project-container" class="container-class" data-name="pottyspot">
-        <h2 class="header-font">Potty Spot</h2>
-        <div>
-          <a href="https://github.com/dren39/pottyspot-frontend" class="repo">Front-End Repository</a>
+    <div id="project-details-container" class="container-class" data-name="project-details-container">
+        <div id="pottyspot-project-container" class="container-class" data-name="pottyspot">
+            <h2 class="header-font">Potty Spot</h2>
+            <div>
+                <a href="https://github.com/dren39/pottyspot-frontend" class="repo">Front-End Repository</a>
+            </div>
+            <div>
+                <a href="https://github.com/dren39/pottyspot-backend" class="repo">Back-End Repository</a>
+            </div>
+            <h3 class="font" id="about-app">About the app</h3>
+            <p class="desc-font project-class">
+                PottySpot was an idea born out of a need for a convenient way to locate a restroom when people are outside 
+                and do not have immediate access to a restroom. The app displays a map that marks a user's current location 
+                as well as nearby businesses or establishments that have restrooms open to the public. Users can open the markers
+                to get more detailed information about a particular business such as the distance from their current location
+                in miles, if the business requires customers to make a purchase before they can use the restroom, or if there
+                is a electronic pass lock on the restroom door, and even rate the cleanliness of the restroom. PottySpot is a
+                user and community driven app, meaning users can update information about the restroom and let other users 
+                know in real time"
+            </p>
+            <h3 class="font">How the app works</h3>
+            <p class="desc-font project-class">
+                When the user first open the app it will take the user's latitude and longitude coordinates from their 
+                browser and pass that data to a Ruby on Rails back end server. The server makes an HTTP GET request to an 
+                API using the geo-coordinates and receives back a json response of all store locations with restrooms within
+                the vicinity of the coordinates. The Rails server passes this data to the front end and uses HTML/CSS, 
+                JavaScript, React, and Redux to display this information on a dynamically generated map.
+            </p>
+            <h4 class="font">
+                <a href="https://quiet-beyond-26673.herokuapp.com/">Demo</a>
+            </h4>
+            <div><button type="button" class="btn btn-primary" data-name="close-btn">Close</button></div>
         </div>
-        <div>
-          <a href="https://github.com/dren39/pottyspot-backend" class="repo">Back-End Repository</a>
-        </div>
-        <h3 class="font" id="about-app">About the app</h3>
-        <p class="desc-font project-class">
-          PottySpot was an idea born out of a need for a convenient way to locate a restroom when people are outside and do not have
-          immediate access to a restroom. The app displays a map that marks a user's current location as well as nearby businesses or
-          establishments that have restrooms open to the public. Users can open the markers to get more detailed information about a
-          particular business such as the distance from their current location in miles, if the business requires customers to make a
-          purchase before they can use the restroom, or if there is a electronic pass lock on the restroom door, and even rate the
-          cleanliness of the restroom. PottySpot is a user and community driven app, meaning users can update information about the
-          restroom and let other users know in real time"
-        </p>
-        <h3 class="font">How the app works</h3>
-        <p class="desc-font project-class">
-          When the user first open the app it will take the user's latitude and longitude coordinates from their browser and pass that
-          data to a Ruby on Rails back end server. The server makes an HTTP GET request to an API using the geo-coordinates and receives
-          back a json response of all store locations with restrooms within the vicinity of the coordinates. The Rails server passes this
-          data to the front end and uses HTML/CSS, JavaScript, React, and Redux to display this information on a dynamically generated map.
-        </p>
-        <h3 class="font">Video Demo</h3>
-        <iframe src="https://drive.google.com/file/d/1DYjOLs5_CoPkUh-N6n-0jTCL26qg3Ncm/preview" width="700" height="450"></iframe>
-        <div><button type="button" class="btn btn-primary" data-name="close-btn">Close</button></div>
-      </div>
 
-      <div id="guild-project-container" class="container-class" data-name="guild">
-        <h2 class="header-font">Guild Quest</h2>
-        <div>
-          <a href="https://github.com/dren39/mod-3-final-project/tree/master/frontend" class="repo">Front-End Repository</a>
+        <div id="guild-project-container" class="container-class" data-name="guild">
+            <h2 class="header-font">Guild Quest</h2>
+            <div>
+                <a href="https://github.com/dren39/job-request-board-app" class="repo">Repository</a>
+            </div>
+            <h3 class="font" id="about-app">About the app</h3>
+            <p class="desc-font project-class">
+                Guild Quest took inspiration from community help sites like Stack Overflow and e-commerce sites like
+                Ebay and Craiglist. The app serves as a place for users to post help requests such as help replacing a
+                car tire or putting up a fence in the backyeard. Other users can accept these requests and work out a
+                compensation agreement with the original poster.
+            </p>
+            <h3 class="font">How the app works</h3>
+            <p class="desc-font project-class">
+                The app is a single page application using a front end built on HTML/CSS and pure JavaScript. The homepage
+                displays a list of recent requests that are sent from a Rails back end sever. Users have to create and
+                account before they are able to post and accept requests, the account and request creation are then created
+                and stored in the back end as POST requests.
+            </p>
+            <h3 class="font">Video Demo</h3>
+            <iframe 
+                src="https://drive.google.com/file/d/1edi_Tm8-ovMLzOA9k3W4wXu0-pTkwVEp/preview"
+                width="700"
+                height="450">
+            </iframe>
+            <div><button type="button" class="btn btn-primary" data-name="close-btn">Close</button></div>
         </div>
-        <div>
-          <a href="https://github.com/dren39/mod-3-final-project/tree/master/backend" class="repo">Back-End Repository</a>
-        </div>
-        <h3 class="font" id="about-app">About the app</h3>
-        <p class="desc-font project-class">
-          Guild Quest took inspiration from community help sites like Stack Overflow and e-commerce sites like Ebay and Craiglist.
-          The app serves as a place for users to post help requests such as help replacing a car tire or putting up a fence in the
-          backyeard. Other users can accept these requests and work out a compensation agreement with the original poster.
-        </p>
-        <h3 class="font">How the app works</h3>
-        <p class="desc-font project-class">
-          The app is a single page application using a front end built on HTML/CSS and pure JavaScript. The homepage displays a list of
-          recent requests that are sent from a Rails back end sever. Users have to create and account before they are able to post and
-          accept requests, the account and request creation are then created and stored in the back end as POST requests.
-        </p>
-        <h3 class="font">Video Demo</h3>
-        <iframe src="https://drive.google.com/file/d/1edi_Tm8-ovMLzOA9k3W4wXu0-pTkwVEp/preview" width="700" height="450"></iframe>
-        <div><button type="button" class="btn btn-primary" data-name="close-btn">Close</button></div>
-      </div>
 
-      <div id="keto-project-container" class="container-class" data-name="keto">
-        <h2 class="header-font">KetoMe</h2>
-        <div>
-          <a href="https://github.com/dren39/nutrition-app" class="repo">Github Repository</a>
+        <div id="keto-project-container" class="container-class" data-name="keto">
+            <h2 class="header-font">KetoMe</h2>
+            <div>
+                <a href="https://github.com/dren39/nutrition-app" class="repo">Github Repository</a>
+            </div>
+            <h3 class="font">About the app</h3>
+            <p class="desc-font project-class">
+                KetoMe is a nutrional app designed to tailor to the needs of users on the Ketogenic diet. The app allows
+                users to keep track of the meals that they consume on a daily basis as well as the unit count of each
+                nutrion they consume. The app also allows users to search and add for the meals that they consume by
+                entering keywords into the search bar.
+            </p>
+            <h3 class="font">How the app works</h3>
+            <p class="desc-font project-class">
+                KetoMe is an app built using Ruby on Rails as both a back end and front end. The app makes HTTP POST
+                requests when users create an account or adds meals to their profile. The profile page makes GET requests
+                for each individual user in order to populate the profile page with their consumed meals as well as
+                calculating the nutrional values of each meal. The meal search functionality makes GET requests to an API
+                based on the user search times. It also incorporates the levenshtein distance theory to self-correct 
+                erroneous search terms entered by users.
+            </p>
+            <h3 class="font">Video Demo</h3>
+            <iframe 
+                src="https://drive.google.com/file/d/1fUctvNbeAc1QJaENyLo-IPRw_xHiDeRI/preview" 
+                width="700" 
+                height="450">
+            </iframe>
+            <div><button type="button" class="btn btn-primary" data-name="close-btn">Close</button></div>
         </div>
-        <h3 class="font">About the app</h3>
-        <p class="desc-font project-class">
-          KetoMe is a nutrional app designed to tailor to the needs of users on the Ketogenic diet. The app allows users to keep track
-          of the meals that they consume on a daily basis as well as the unit count of each nutrion they consume. The app also allows
-          users to search and add for the meals that they consume by entering keywords into the search bar
-        </p>
-        <h3 class="font">How the app works</h3>
-        <p class="desc-font project-class">
-          KetoMe is an app built using Ruby on Rails as both a back end and front end. The app makes HTTP POST requests when users
-          create an account or adds meals to their profile. The profile page makes GET requests for each individual user in order to
-          populate the profile page with their consumed meals as well as calculating the nutrional values of each meal. The meal search
-          functionality makes GET requests to an API based on the user search times. It also incorporates the levenshtein distance theory
-          to self-correct erroneous search terms entered by users.
-        </p>
-        <h3 class="font">Video Demo</h3>
-        <iframe src="https://drive.google.com/file/d/1fUctvNbeAc1QJaENyLo-IPRw_xHiDeRI/preview" width="700" height="450"></iframe>
-        <div><button type="button" class="btn btn-primary" data-name="close-btn">Close</button></div>
-      </div>
 
-    <!-- </div> -->
+    </div>
 
     <div id="skill-container" class="container-class">
-      <h2 class="header-font">Programming Languages</h2>
-      <div id="langauge-container" class="icon-container">
-        <div>
-          <img src="https://img.icons8.com/color/96/000000/javascript.png">
-          <p class="footer-font">Javascript</p>
+        <h2 class="header-font">Programming Languages</h2>
+        <div id="langauge-container" class="icon-container">
+            <div>
+                <img src="https://img.icons8.com/color/96/000000/javascript.png">
+                <p class="footer-font">Javascript</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/96/000000/ruby-programming-language.png">
+                <p class="footer-font">Ruby</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/96/000000/html-5.png">
+                <p class="footer-font">HTML</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/96/000000/css3.png">
+                <p class="footer-font">CSS</p>
+            </div>
         </div>
-        <div>
-          <img src="https://img.icons8.com/color/96/000000/ruby-programming-language.png">
-          <p class="footer-font">Ruby</p>
+
+        <h2 class="header-font">Frameworks and Tools</h2>
+        <div id="framework-container" class="icon-container">
+            <div>
+                <img src="images/rails-icon.png" width="85" height="85">
+                <p class="footer-font">Ruby on Rails</p>
+            </div>
+            <div>
+                <img src=images/react-icon.png width ="85" height ="85">
+                <p class="footer-font">React</p>
+            </div>
+            <div>
+                <img src="images/nodejs-icon.png" width="85" height="85">
+                <p class="footer-font">Node.js</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/96/000000/bootstrap.png" width="83" height="85">
+                <p class="footer-font">Boostrap</p>
+            </div>
         </div>
-        <div>
-          <!-- <img src="https://img.icons8.com/nolan/96/000000/html-filetype.png"> -->
-          <img src="https://img.icons8.com/color/96/000000/html-5.png">
-          <p class="footer-font">HTML</p>
+
+        <h2 class="header-font">Database Management</h2>
+        <div id="database-container" class="icon-container">
+            <div>
+                <img src="https://img.icons8.com/color/96/000000/postgreesql.png" width="85" height="85">
+                <p class="footer-font">PostgreSQL</p>
+            </div>
         </div>
-        <div>
-          <!-- <img src="https://img.icons8.com/nolan/96/000000/css-filetype.png"> -->
-          <img src="https://img.icons8.com/color/96/000000/css3.png">
-          <p class="footer-font">CSS</p>
-        </div>
-      </div>
-      <h2 class="header-font">Frameworks and Tools</h2>
-      <div id="framework-container" class="icon-container">
-        <div>
-          <img src="images/rails-icon.png" width="85" height="85">
-          <p class="footer-font">Ruby on Rails</p>
-        </div>
-        <div>
-          <img src=images/react-icon.png width ="85" height ="85">
-          <!-- <img src="https://img.icons8.com/plasticine/100/000000/react.png" width="85" height="85"> -->
-          <p class="footer-font">React</p>
-        </div>
-        <div>
-          <img src="images/nodejs-icon.png" width="85" height="85">
-          <p class="footer-font">Node.js</p>
-        </div>
-        <div>
-          <img src="https://img.icons8.com/color/96/000000/bootstrap.png" width="83" height="85">
-          <p class="footer-font">Boostrap</p>
-        </div>
-      </div>
-      <h2 class="header-font">Database Management</h2>
-      <div id="database-container" class="icon-container">
-        <div>
-          <img src="https://img.icons8.com/color/96/000000/postgreesql.png" width="85" height="85">
-          <p class="footer-font">PostgreSQL</p>
-        </div>
-      </div>
     </div>
         
     <div id="links-container" class="container-class">
-      <h2 class="header-font">Find Me Online</h2>
-      <div id="link-icon-container" class="icon-container">
-        <a href="https://github.com/dren39">
-          <img src="images/github-icon.png" width="60" height="60">
-        </a>
-        <a href="https://www.linkedin.com/in/davidren92/">
-          <img id="LI-icon" src="images/linkedin-icon.png" width="70" height="62">
-        </a>
-        <a href="https://medium.com/@dren4510">
-          <img src="images/medium-icon.png" width="68" height="62">
-        </a>
-      </div>
+        <h2 class="header-font">Find Me Online</h2>
+        <div id="link-icon-container" class="icon-container">
+            <a href="https://github.com/dren39">
+                <img src="images/github-icon.png" width="60" height="60">
+            </a>
+            <a href="https://www.linkedin.com/in/davidren92/">
+                <img id="LI-icon" src="images/linkedin-icon.png" width="70" height="62">
+            </a>
+            <a href="https://medium.com/@dren4510">
+                <img src="images/medium-icon.png" width="68" height="62">
+            </a>
+        </div>
     </div>
 
     <div id="contact-container" class="container-class">
-      <h2 class="header-font">Contact Me</h2>
-      <p class="desc-font">dren4510@gmail.com</p>
-      <p class="desc-font">347-399-8735</p>
+        <h2 class="header-font">Contact Me</h2>
+        <p class="desc-font">dren4510@gmail.com</p>
+        <p class="desc-font">347-399-8735</p>
     </div>
   </body>
 </html>
